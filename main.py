@@ -27,3 +27,6 @@ df = pd.read_sql(query, engine)
 writer = pd.ExcelWriter('D:\python\stoklar.xlsx')
 df.to_excel(writer, index=False)
 writer._save()
+
+
+# C-149591316
